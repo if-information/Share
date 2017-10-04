@@ -17,21 +17,21 @@
         <entry file="file://$PROJECT_DIR$/MySQL/Learning_SQL/ch03_查询入门/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="473">
-                <caret line="145" column="13" lean-forward="true" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
+              <first_editor relative-caret-position="125">
+                <caret line="74" column="2" lean-forward="false" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
                 <folding>
-                  <marker date="1507158962000" expanded="true" signature="1758:1794" ph="SELECT dept_... department" />
-                  <marker date="1507158962000" expanded="true" signature="1952:2060" ph="SELECT emp_i... employee" />
-                  <marker date="1507158962000" expanded="true" signature="2137:2173" ph="SELECT DISTI... account" />
-                  <marker date="1507158962000" expanded="true" signature="2347:2454" ph="SELECT e.emp... emp_id" />
-                  <marker date="1507158962000" expanded="true" signature="2387:2451" ph="SELECT emp_i... employee" />
-                  <marker date="1507158962000" expanded="true" signature="2586:2693" ph="CREATE VIEW employee_view... " />
-                  <marker date="1507158962000" expanded="true" signature="2617:2693" ph="SELECT emp_i... employee" />
-                  <marker date="1507158962000" expanded="true" signature="2697:2741" ph="SELECT emp_i... employee_view" />
-                  <marker date="1507158962000" expanded="true" signature="2860:3022" ph="SELECT emplo... employee" />
-                  <marker date="1507158962000" expanded="true" signature="3077:3193" ph="SELECT e.emp... employee" />
-                  <marker date="1507158962000" expanded="true" signature="3276:3364" ph="SELECT emp_i... employee" />
-                  <marker date="1507158962000" expanded="true" signature="3455:3573" ph="SELECT emp_i... employee" />
+                  <marker date="1507159089000" expanded="true" signature="1758:1794" ph="SELECT dept_... department" />
+                  <marker date="1507159089000" expanded="true" signature="1952:2060" ph="SELECT emp_i... employee" />
+                  <marker date="1507159089000" expanded="true" signature="2139:2175" ph="SELECT DISTI... account" />
+                  <marker date="1507159089000" expanded="true" signature="2349:2456" ph="SELECT e.emp... emp_id" />
+                  <marker date="1507159089000" expanded="true" signature="2389:2453" ph="SELECT emp_i... employee" />
+                  <marker date="1507159089000" expanded="true" signature="2588:2695" ph="CREATE VIEW employee_view... " />
+                  <marker date="1507159089000" expanded="true" signature="2619:2695" ph="SELECT emp_i... employee" />
+                  <marker date="1507159089000" expanded="true" signature="2699:2743" ph="SELECT emp_i... employee_view" />
+                  <marker date="1507159089000" expanded="true" signature="2864:3026" ph="SELECT emplo... employee" />
+                  <marker date="1507159089000" expanded="true" signature="3083:3199" ph="SELECT e.emp... employee" />
+                  <marker date="1507159089000" expanded="true" signature="3284:3372" ph="SELECT emp_i... employee" />
+                  <marker date="1507159089000" expanded="true" signature="3465:3583" ph="SELECT emp_i... employee" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -238,7 +238,7 @@
       <updated>1506556971859</updated>
       <workItem from="1506556973138" duration="1142000" />
       <workItem from="1506559915965" duration="1771000" />
-      <workItem from="1507157549168" duration="1394000" />
+      <workItem from="1507157549168" duration="1512000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1507157948943</created>
@@ -251,7 +251,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4307000" />
+    <option name="totallyTimeSpent" value="4425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="28" y="22" width="1252" height="778" extended-state="0" />
@@ -669,21 +669,21 @@
     <entry file="file://$PROJECT_DIR$/MySQL/Learning_SQL/ch03_查询入门/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="473">
-            <caret line="145" column="13" lean-forward="true" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
+          <first_editor relative-caret-position="125">
+            <caret line="74" column="2" lean-forward="false" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
             <folding>
-              <marker date="1507158962000" expanded="true" signature="1758:1794" ph="SELECT dept_... department" />
-              <marker date="1507158962000" expanded="true" signature="1952:2060" ph="SELECT emp_i... employee" />
-              <marker date="1507158962000" expanded="true" signature="2137:2173" ph="SELECT DISTI... account" />
-              <marker date="1507158962000" expanded="true" signature="2347:2454" ph="SELECT e.emp... emp_id" />
-              <marker date="1507158962000" expanded="true" signature="2387:2451" ph="SELECT emp_i... employee" />
-              <marker date="1507158962000" expanded="true" signature="2586:2693" ph="CREATE VIEW employee_view... " />
-              <marker date="1507158962000" expanded="true" signature="2617:2693" ph="SELECT emp_i... employee" />
-              <marker date="1507158962000" expanded="true" signature="2697:2741" ph="SELECT emp_i... employee_view" />
-              <marker date="1507158962000" expanded="true" signature="2860:3022" ph="SELECT emplo... employee" />
-              <marker date="1507158962000" expanded="true" signature="3077:3193" ph="SELECT e.emp... employee" />
-              <marker date="1507158962000" expanded="true" signature="3276:3364" ph="SELECT emp_i... employee" />
-              <marker date="1507158962000" expanded="true" signature="3455:3573" ph="SELECT emp_i... employee" />
+              <marker date="1507159089000" expanded="true" signature="1758:1794" ph="SELECT dept_... department" />
+              <marker date="1507159089000" expanded="true" signature="1952:2060" ph="SELECT emp_i... employee" />
+              <marker date="1507159089000" expanded="true" signature="2139:2175" ph="SELECT DISTI... account" />
+              <marker date="1507159089000" expanded="true" signature="2349:2456" ph="SELECT e.emp... emp_id" />
+              <marker date="1507159089000" expanded="true" signature="2389:2453" ph="SELECT emp_i... employee" />
+              <marker date="1507159089000" expanded="true" signature="2588:2695" ph="CREATE VIEW employee_view... " />
+              <marker date="1507159089000" expanded="true" signature="2619:2695" ph="SELECT emp_i... employee" />
+              <marker date="1507159089000" expanded="true" signature="2699:2743" ph="SELECT emp_i... employee_view" />
+              <marker date="1507159089000" expanded="true" signature="2864:3026" ph="SELECT emplo... employee" />
+              <marker date="1507159089000" expanded="true" signature="3083:3199" ph="SELECT e.emp... employee" />
+              <marker date="1507159089000" expanded="true" signature="3284:3372" ph="SELECT emp_i... employee" />
+              <marker date="1507159089000" expanded="true" signature="3465:3583" ph="SELECT emp_i... employee" />
             </folding>
           </first_editor>
           <second_editor />
