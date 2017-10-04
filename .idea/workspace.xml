@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3c2e840-5ad9-4547-b786-2b94515b58df" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MySQL/Learning_SQL/ch03_查询入门/README.md" afterPath="$PROJECT_DIR$/MySQL/Learning_SQL/ch03_查询入门/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MySQL/Learning_SQL/LearningSQLExample.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,12 +13,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MySQL/Learning_SQL/ch03_查询入门/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="532">
-                <caret line="257" column="13" lean-forward="false" selection-start-line="257" selection-start-column="13" selection-end-line="257" selection-end-column="13" />
+              <first_editor relative-caret-position="256">
+                <caret line="244" column="8" lean-forward="true" selection-start-line="244" selection-start-column="8" selection-end-line="244" selection-end-column="8" />
                 <folding>
                   <marker date="1507159644000" expanded="true" signature="1760:1796" ph="SELECT dept_... department" />
                   <marker date="1507159644000" expanded="true" signature="1956:2064" ph="SELECT emp_i... employee" />
@@ -46,6 +46,29 @@
                 </folding>
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MySQL/Learning_SQL/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="460">
+                <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LearningSQLExample.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MySQL/Learning_SQL/LearningSQLExample.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,10 +125,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="28" />
     <option name="y" value="22" />
-    <option name="width" value="1252" />
+    <option name="width" value="888" />
     <option name="height" value="778" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -181,13 +204,6 @@
               <item name="MySQL" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Learning_SQL" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="share" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="MySQL" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Learning_SQL" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ch03_查询入门" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -215,11 +231,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MySQL/Learning_SQL" />
       <recent name="$PROJECT_DIR$/MySQL/Learning_SQL/ch15_元数据" />
       <recent name="$PROJECT_DIR$/MySQL/Learning_SQL/ch14_视图" />
       <recent name="$PROJECT_DIR$/MySQL/Learning_SQL/ch13_索引和约束" />
       <recent name="$PROJECT_DIR$/MySQL/Learning_SQL/ch12_事务" />
-      <recent name="$PROJECT_DIR$/MySQL/Learning_SQL/ch11_条件巡逻" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -249,7 +265,7 @@
       <updated>1506556971859</updated>
       <workItem from="1506556973138" duration="1142000" />
       <workItem from="1506559915965" duration="1771000" />
-      <workItem from="1507157549168" duration="2063000" />
+      <workItem from="1507157549168" duration="2675000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1507157948943</created>
@@ -262,13 +278,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4976000" />
+    <option name="totallyTimeSpent" value="5588000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="22" width="1252" height="778" extended-state="0" />
-    <editor active="true" />
+    <frame x="28" y="22" width="1252" height="778" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21570247" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21570247" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -644,17 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MySQL/Learning_SQL/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="460">
-            <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MySQL/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -677,11 +681,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MySQL/Learning_SQL/LearningSQLExample.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MySQL/Learning_SQL/ch03_查询入门/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="532">
-            <caret line="257" column="13" lean-forward="false" selection-start-line="257" selection-start-column="13" selection-end-line="257" selection-end-column="13" />
+          <first_editor relative-caret-position="256">
+            <caret line="244" column="8" lean-forward="true" selection-start-line="244" selection-start-column="8" selection-end-line="244" selection-end-column="8" />
             <folding>
               <marker date="1507159644000" expanded="true" signature="1760:1796" ph="SELECT dept_... department" />
               <marker date="1507159644000" expanded="true" signature="1956:2064" ph="SELECT emp_i... employee" />
@@ -707,6 +719,17 @@
               <marker date="1507159644000" expanded="true" signature="5507:5612" ph="SELECT accou... account" />
               <marker date="1507159644000" expanded="true" signature="5723:5763" ph="SELECT DISTI... account" />
             </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySQL/Learning_SQL/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="460">
+            <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
