@@ -72,7 +72,7 @@ FROM employee;
 ```
 
 ### 3.3.2 去除重复的行
-显示 `account` 表中的 `cust_id` 列, 去除重复的行.
+* 显示 `account` 表中的 `cust_id` 列, 去除重复的行.
 
 解决方案
 ```mysql
@@ -108,7 +108,7 @@ FROM employee_view;
 ```
 
 ### 3.4.2 表连接
-查询同时显示 `employee表`(`emp_id` `fname` `lname`)和 `department` 表(`name`)的数据. 使用表连接查询显示
+* 查询同时显示 `employee表`(`emp_id` `fname` `lname`)和 `department` 表(`name`)的数据. 使用表连接查询显示
 
 解决方案
 ```mysql
@@ -118,7 +118,7 @@ FROM employee INNER JOIN department
 ```
 
 ### 3.4.3 定义表别名
-上述的查询使用表的别名进行查询.
+* 上述的查询使用表的别名进行查询.
 
 解决方案
 ```mysql
@@ -128,7 +128,7 @@ ON e.dept_id = d.dept_id;
 ```
 
 ## 3.5 where子句
-查询 `employee` 表, 但只获取头衔为 `head teller` 的雇员数据.
+* 查询 `employee` 表, 但只获取头衔为 `head teller` 的雇员数据.
 
 解决方案
 ```mysql
@@ -138,7 +138,7 @@ WHERE title = 'Head Teller';
 ```
 
 
-查询 `employee` 表, 但只获取头衔为 `head teller` 的雇员数据, 并且只包括在2002年1月之后入职的雇员.
+* 查询 `employee` 表, 但只获取头衔为 `head teller` 的雇员数据, 并且只包括在2002年1月之后入职的雇员.
 
 解决方案
 ```mysql
