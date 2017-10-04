@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3c2e840-5ad9-4547-b786-2b94515b58df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MySQL/Learning_SQL/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +43,8 @@
         <entry file="file://$PROJECT_DIR$/MySQL/Learning_SQL/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="483">
-                <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+              <first_editor relative-caret-position="460">
+                <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -245,12 +244,20 @@
       <updated>1506556971859</updated>
       <workItem from="1506556973138" duration="1142000" />
       <workItem from="1506559915965" duration="1771000" />
-      <workItem from="1507157549168" duration="372000" />
+      <workItem from="1507157549168" duration="400000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1507157948943</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1507157948943</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3285000" />
+    <option name="totallyTimeSpent" value="3313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="28" y="22" width="1252" height="778" extended-state="0" />
@@ -281,6 +288,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -663,8 +674,8 @@
     <entry file="file://$PROJECT_DIR$/MySQL/Learning_SQL/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="483">
-            <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <first_editor relative-caret-position="460">
+            <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
