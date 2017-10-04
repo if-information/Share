@@ -51,7 +51,7 @@ order by|	按一个或多个列, 对最后结果集中的行进行排序
 
 
 ## 3.3 `select` 子句
-显示 `department` 表中的 `dept_id` 和 `name` 列
+* 显示 `department` 表中的 `dept_id` 和 `name` 列
 
 解决方案
 ```mysql
@@ -60,7 +60,7 @@ FROM department;
 ```
 
 ### 3.3.1 列的别名
-显示 `department` 表中 `emp_id` , 添加 `active` 字符, 将 `lname` 列全部转变为大写, 同时将上述3列分别指定别名 `status` `empid_x_pi` `last_name_upper`.
+* 显示 `department` 表中 `emp_id` , 添加 `active` 字符, 将 `lname` 列全部转变为大写, 同时将上述3列分别指定别名 `status` `empid_x_pi` `last_name_upper`.
 
 解决方案
 ```mysql
@@ -82,9 +82,9 @@ FROM account;
 
 ## 3.4 `from` 子句
 ### 3.4.1 表的概念
-* 子查询中产生的表
+#### 子查询中产生的表
 
-`employee` 表中子查询返回5个列(`emp_id` `fname` `lname` `start_data` `title`), 在外围查询获取其中3列(`emp_id` `fname` `lname`)
+* `employee` 表中子查询返回5个列(`emp_id` `fname` `lname` `start_data` `title`), 在外围查询获取其中3列(`emp_id` `fname` `lname`)
 
 解决方案
 ```mysql
@@ -93,8 +93,8 @@ FROM (SELECT emp_id, fname, lname, start_date, title
     FROM employee) e;
 ```
 
-* 视图
-创建视图, 返回 `employee` 表中的4个列(`emp_id` `fname` `lname` `start_date`) , 对此视图进行查询, 返回 `emp_id` `start_year` 列
+#### 视图
+* 创建视图, 返回 `employee` 表中的4个列(`emp_id` `fname` `lname` `start_date`) , 对此视图进行查询, 返回 `emp_id` `start_year` 列
 
 解决方案
 ```mysql
@@ -148,5 +148,126 @@ WHERE title = 'head teller'
 AND start_date > '2002-01-01';
 ```
 
+* 查询 `employee` 表, 获取头衔为 `head teller` 的雇员或在2002年1月之后入职的雇员
+
+解决方案
+```mysql
+SELECT emp_id, fname, lname, start_date, title
+FROM employee
+WHERE title = 'head teller'
+OR start_date > '2002-01-01';
+```
+
+* 查询 `employee` 表, 返回在2002年1月1日之后加入公司的 `head teller` 雇员或者在2007年1月1日后入职的 `teller` 雇员.
+
+解决方案
+```mysql
+SELECT emp_id, fname, lname, title, start_date
+FROM employee
+WHERE (title ='head teller' AND start_date > '2002-01-01')
+OR (title ='teller' AND start_date > '2007-01-01');
+```
+
+## 3.6 `group by` 和 `having` 子句
+* 查询每个部门计算器所含的雇员数, 然后返回至少包含2个雇员的部门.
+
+解决方案
+```mysql
+SELECT d.name, COUNT(e.emp_id) num_employees
+FROM department d INNER JOIN employee e 
+ON d.dept_id = e.dept_id
+GROUP BY d.name
+HAVING COUNT(e.emp_id) > 2;
+```
+
+## 3.7 `order by` 子句
+* 查询 `account` 表, 返回每个雇员开设的账户类型(排序显示)
+
+解决方案
+```mysql
+SELECT open_emp_id, product_cd
+FROM account
+ORDER BY open_emp_id;
+```
+
+* 查询 `account` 表, 返回每个雇员开设的账户类型(首先根据雇员的ID排序, 然后根据账户类型排序)
+
+解决方案
+```mysql
+SELECT open_emp_id, product_cd
+FROM account
+ORDER BY open_emp_id, product_cd;
+```
+
+### 3.7.1 升序或降序排序
+* 查询 `account` 表, 根据可用余额排序账户, 并且余额最高的出现在最上面.
+
+解决方案
+```mysql
+SELECT account_id, product_cd, open_date, avail_balance
+FROM account
+ORDER BY avail_balance DESC ;
+```
+
+### 3.7.2 根据表达式排序
+查询 `customer` 表, 根据客户的联邦个人识别号码的最后3位数字进行排序. 列出 `cust_id` `cust_type_cd` `city` `state` `fed_id`
+
+解决方案
+```mysql
+SELECT cust_id, cust_type_cd, city, state, fed_id
+FROM customer
+ORDER BY RIGHT(fed_id, 3);
+```
+
+### 3.7.3 根据数字占位符排序
+* 查询 `employee` 表, 返回 `emp_id` `title` `start_date` `fname` `lname` 列, 同时根据第2个和第5个列排序
+
+解决方案
+```mysql
+SELECT emp_id, title, start_date, fname, lname
+FROM employee
+ORDER BY 2, 5;
+```
+
+## 测试
+* 获取所有银行雇员的 `employee ID` , 名字(`first name`) 和姓氏(`last name`), 并先后根据姓氏和名字进行排序
+
+解决方案
+```mysql
+SELECT emp_id, fname, lname
+FROM employee
+ORDER BY lname, fname;
+```
+
+* 获取所有状态为 `ACTIVE` 以及可以余额大于$2500的账号的 `account ID` `customer ID` 和可用余额(`available balance`)
+  
+解决方案
+```mysql
+SELECT account_id, cust_id, avail_balance
+ 
+FROM account
+WHERE STATUS = 'ACTIVE'
+AND avail_balance > 2500;
+```
+
+* 针对 `account` 表编写查询, 以返回开设过账户的雇员ID(使用 `account.open_emp_id` 列), 并且结果集中每个独立的雇员只包含一行数据.
+  
+解决方案
+```mysql
+SELECT DISTINCT open_emp_id
+FROM account;
+```
+
+
+
+
+   
+
+
+  
+
+
+
+  
 
 
