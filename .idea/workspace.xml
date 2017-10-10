@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3c2e840-5ad9-4547-b786-2b94515b58df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MySQL/Learning_SQL/LearningSQLExample.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Linux/LAMP 搭建(Mac)/images/password.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Linux/LAMP 搭建(Mac)/README.md" afterPath="$PROJECT_DIR$/Linux/LAMP 搭建(Mac)/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,62 +15,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MySQL/Learning_SQL/ch03_查询入门/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="256">
-                <caret line="244" column="8" lean-forward="true" selection-start-line="244" selection-start-column="8" selection-end-line="244" selection-end-column="8" />
-                <folding>
-                  <marker date="1507159644000" expanded="true" signature="1760:1796" ph="SELECT dept_... department" />
-                  <marker date="1507159644000" expanded="true" signature="1956:2064" ph="SELECT emp_i... employee" />
-                  <marker date="1507159644000" expanded="true" signature="2143:2179" ph="SELECT DISTI... account" />
-                  <marker date="1507159644000" expanded="true" signature="2358:2465" ph="SELECT e.emp... emp_id" />
-                  <marker date="1507159644000" expanded="true" signature="2398:2462" ph="SELECT emp_i... employee" />
-                  <marker date="1507159644000" expanded="true" signature="2602:2709" ph="CREATE VIEW employee_view... " />
-                  <marker date="1507159644000" expanded="true" signature="2633:2709" ph="SELECT emp_i... employee" />
-                  <marker date="1507159644000" expanded="true" signature="2713:2757" ph="SELECT emp_i... employee_view" />
-                  <marker date="1507159644000" expanded="true" signature="2878:3040" ph="SELECT emplo... employee" />
-                  <marker date="1507159644000" expanded="true" signature="3097:3213" ph="SELECT e.emp... employee" />
-                  <marker date="1507159644000" expanded="true" signature="3298:3386" ph="SELECT emp_i... employee" />
-                  <marker date="1507159644000" expanded="true" signature="3479:3597" ph="SELECT emp_i... employee" />
-                  <marker date="1507159644000" expanded="true" signature="3678:3795" ph="SELECT emp_i... employee" />
-                  <marker date="1507159644000" expanded="true" signature="3902:4072" ph="SELECT emp_i... employee" />
-                  <marker date="1507159644000" expanded="true" signature="4162:4315" ph="SELECT d.nam... department" />
-                  <marker date="1507159644000" expanded="true" signature="4396:4460" ph="SELECT open_... account" />
-                  <marker date="1507159644000" expanded="true" signature="4539:4615" ph="SELECT open_... account" />
-                  <marker date="1507159644000" expanded="true" signature="4700:4796" ph="SELECT accou... account" />
-                  <marker date="1507159644000" expanded="true" signature="4932:5021" ph="SELECT cust_... customer" />
-                  <marker date="1507159644000" expanded="true" signature="5149:5223" ph="SELECT emp_i... employee" />
-                  <marker date="1507159644000" expanded="true" signature="5329:5392" ph="SELECT emp_i... employee" />
-                  <marker date="1507159644000" expanded="true" signature="5507:5612" ph="SELECT accou... account" />
-                  <marker date="1507159644000" expanded="true" signature="5723:5763" ph="SELECT DISTI... account" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MySQL/Learning_SQL/README.md">
+        <entry file="file://$PROJECT_DIR$/Linux/LAMP 搭建(Mac)/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="460">
-                <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="325">
+                <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LearningSQLExample.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MySQL/Learning_SQL/LearningSQLExample.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -104,7 +59,6 @@
         <option value="$PROJECT_DIR$/MySQL/Learning_SQL/ch14_视图/README.md" />
         <option value="$PROJECT_DIR$/MySQL/Learning_SQL/ch15_元数据/README.md" />
         <option value="$PROJECT_DIR$/Linux/Apache搭建虚拟主机/README.md" />
-        <option value="$PROJECT_DIR$/Linux/LAMP 搭建(Mac)/README.md" />
         <option value="$PROJECT_DIR$/C/C程序设计语言/主题/寄存器变量.md" />
         <option value="$PROJECT_DIR$/C/C程序设计语言/主题/寄存器变量/README.md" />
         <option value="$PROJECT_DIR$/C/C程序设计语言/主题/深入理解C语言的各种存储类的初始化规则/README.md" />
@@ -115,6 +69,7 @@
         <option value="$PROJECT_DIR$/C/C程序设计语言/主题/README.md" />
         <option value="$PROJECT_DIR$/MySQL/Learning_SQL/README.md" />
         <option value="$PROJECT_DIR$/MySQL/Learning_SQL/ch03_查询入门/README.md" />
+        <option value="$PROJECT_DIR$/Linux/LAMP 搭建(Mac)/README.md" />
       </list>
     </option>
   </component>
@@ -126,10 +81,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="28" />
+    <option name="x" value="25" />
     <option name="y" value="22" />
-    <option name="width" value="888" />
-    <option name="height" value="778" />
+    <option name="width" value="999" />
+    <option name="height" value="746" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -186,28 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="share" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="share" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="MySQL" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="share" type="b2602c69:ProjectViewProjectNode" />
-              <item name="share" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="MySQL" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Learning_SQL" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -220,6 +153,28 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Linux" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Linux" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="LAMP 搭建(Mac)" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,11 +186,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Linux/LAMP 搭建(Mac)/images" />
       <recent name="$PROJECT_DIR$/MySQL/Learning_SQL" />
       <recent name="$PROJECT_DIR$/MySQL/Learning_SQL/ch15_元数据" />
       <recent name="$PROJECT_DIR$/MySQL/Learning_SQL/ch14_视图" />
       <recent name="$PROJECT_DIR$/MySQL/Learning_SQL/ch13_索引和约束" />
-      <recent name="$PROJECT_DIR$/MySQL/Learning_SQL/ch12_事务" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -265,7 +220,8 @@
       <updated>1506556971859</updated>
       <workItem from="1506556973138" duration="1142000" />
       <workItem from="1506559915965" duration="1771000" />
-      <workItem from="1507157549168" duration="2675000" />
+      <workItem from="1507157549168" duration="2838000" />
+      <workItem from="1507617191979" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1507157948943</created>
@@ -278,12 +234,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5588000" />
+    <option name="totallyTimeSpent" value="5820000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="22" width="1252" height="778" extended-state="6" />
+    <frame x="28" y="22" width="996" height="746" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21570247" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22012578" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -558,16 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Linux/LAMP 搭建(Mac)/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="920">
-            <caret line="40" column="3" lean-forward="false" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Linux/Apache搭建虚拟主机/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -664,7 +611,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="10" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -675,7 +621,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -683,52 +628,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MySQL/Learning_SQL/LearningSQLExample.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="345">
           <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MySQL/Learning_SQL/ch03_查询入门/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="256">
-            <caret line="244" column="8" lean-forward="true" selection-start-line="244" selection-start-column="8" selection-end-line="244" selection-end-column="8" />
-            <folding>
-              <marker date="1507159644000" expanded="true" signature="1760:1796" ph="SELECT dept_... department" />
-              <marker date="1507159644000" expanded="true" signature="1956:2064" ph="SELECT emp_i... employee" />
-              <marker date="1507159644000" expanded="true" signature="2143:2179" ph="SELECT DISTI... account" />
-              <marker date="1507159644000" expanded="true" signature="2358:2465" ph="SELECT e.emp... emp_id" />
-              <marker date="1507159644000" expanded="true" signature="2398:2462" ph="SELECT emp_i... employee" />
-              <marker date="1507159644000" expanded="true" signature="2602:2709" ph="CREATE VIEW employee_view... " />
-              <marker date="1507159644000" expanded="true" signature="2633:2709" ph="SELECT emp_i... employee" />
-              <marker date="1507159644000" expanded="true" signature="2713:2757" ph="SELECT emp_i... employee_view" />
-              <marker date="1507159644000" expanded="true" signature="2878:3040" ph="SELECT emplo... employee" />
-              <marker date="1507159644000" expanded="true" signature="3097:3213" ph="SELECT e.emp... employee" />
-              <marker date="1507159644000" expanded="true" signature="3298:3386" ph="SELECT emp_i... employee" />
-              <marker date="1507159644000" expanded="true" signature="3479:3597" ph="SELECT emp_i... employee" />
-              <marker date="1507159644000" expanded="true" signature="3678:3795" ph="SELECT emp_i... employee" />
-              <marker date="1507159644000" expanded="true" signature="3902:4072" ph="SELECT emp_i... employee" />
-              <marker date="1507159644000" expanded="true" signature="4162:4315" ph="SELECT d.nam... department" />
-              <marker date="1507159644000" expanded="true" signature="4396:4460" ph="SELECT open_... account" />
-              <marker date="1507159644000" expanded="true" signature="4539:4615" ph="SELECT open_... account" />
-              <marker date="1507159644000" expanded="true" signature="4700:4796" ph="SELECT accou... account" />
-              <marker date="1507159644000" expanded="true" signature="4932:5021" ph="SELECT cust_... customer" />
-              <marker date="1507159644000" expanded="true" signature="5149:5223" ph="SELECT emp_i... employee" />
-              <marker date="1507159644000" expanded="true" signature="5329:5392" ph="SELECT emp_i... employee" />
-              <marker date="1507159644000" expanded="true" signature="5507:5612" ph="SELECT accou... account" />
-              <marker date="1507159644000" expanded="true" signature="5723:5763" ph="SELECT DISTI... account" />
-            </folding>
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MySQL/Learning_SQL/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="460">
-            <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <first_editor relative-caret-position="207">
+            <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySQL/Learning_SQL/ch03_查询入门/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="161">
+            <caret line="2" column="280" lean-forward="true" selection-start-line="2" selection-start-column="280" selection-end-line="2" selection-end-column="280" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linux/LAMP 搭建(Mac)/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="325">
+            <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
             <folding />
           </first_editor>
           <second_editor />

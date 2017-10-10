@@ -41,6 +41,7 @@ curl -s https://php-osx.liip.ch/install.sh | bash -s 7.1
 ### Mac下载安装社区版MySQL
 1. 下载安装[MySQL](https://dev.mysql.com/downloads/)
 2. 在安装MySQL最后一步会提示为 'root'@'localhost' 临时创建的密码, 将此密码记录下来
+![](images/password.jpg)
 3. 安装完MySQL之后, 在 `系统偏好设置` 下面会出现一个MySQL图标
 4. 确定开启MySQL服务
 5. 进入终端修改 MySQL的 root 密码
