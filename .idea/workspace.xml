@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3c2e840-5ad9-4547-b786-2b94515b58df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MySQL/微软数据库脚本/Northwind.MySQL5(HeidiSQL执行，默认分割符为分号).sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MySQL/微软数据库脚本/Northwind_sqlmanager导出.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MySQL/微软数据库脚本/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MySQL/微软数据库脚本/northwind_heidisql_导出.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MySQL/README.md" afterPath="$PROJECT_DIR$/MySQL/README.md" />
-    </list>
+    <list default="true" id="d3c2e840-5ad9-4547-b786-2b94515b58df" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,14 +80,24 @@
       <file leaf-file-name="northwind_heidisql_导出.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MySQL/微软数据库脚本/northwind_heidisql_导出.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="-11782">
               <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Northwind_sqlmanager导出.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MySQL/微软数据库脚本/Northwind_sqlmanager导出.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5226">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MySQL/微软数据库脚本/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
@@ -103,6 +106,16 @@
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Northwind.MySQL5(HeidiSQL执行，默认分割符为分号).sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MySQL/微软数据库脚本/Northwind.MySQL5(HeidiSQL执行，默认分割符为分号).sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-24526">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -179,11 +192,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="95" />
-    <option name="y" value="281" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="79" />
+    <option name="y" value="127" />
     <option name="width" value="1185" />
-    <option name="height" value="519" />
+    <option name="height" value="651" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -327,7 +340,7 @@
       <workItem from="1507617191979" duration="277000" />
       <workItem from="1507679935360" duration="1502000" />
       <workItem from="1507693697579" duration="1828000" />
-      <workItem from="1508658597290" duration="184000" />
+      <workItem from="1508658597290" duration="529000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1507157948943</created>
@@ -336,11 +349,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507157948943</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1508658800579</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1508658800580</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9542000" />
+    <option name="totallyTimeSpent" value="9887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -352,10 +372,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="95" y="281" width="1185" height="519" extended-state="0" />
+    <frame x="28" y="22" width="1252" height="778" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24934383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2016529" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -390,23 +410,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C/C程序设计语言/主题/寄存器变量/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="759">
-            <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MySQL/Learning_SQL/书中的数据库脚本/LearningSQLExample.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Linux/LAMP 搭建(Mac)/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
@@ -881,14 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MySQL/微软数据库脚本/northwind_heidisql_导出.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MySQL/微软数据库脚本/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -897,6 +892,30 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySQL/微软数据库脚本/Northwind.MySQL5(HeidiSQL执行，默认分割符为分号).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24526">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySQL/微软数据库脚本/northwind_heidisql_导出.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11782">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySQL/微软数据库脚本/Northwind_sqlmanager导出.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5226">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
