@@ -33,7 +33,7 @@ cp /etc/php.ini.default /etc/php.ini
 ```
 
 ### Mac安装其他版本PHP
-终端下一行指令进行安装(可以指定不同的版本)
+终端下一行指令进行安装(可以[指定不同的版本](https://php-osx.liip.ch/))
 ```C
 curl -s https://php-osx.liip.ch/install.sh | bash -s 7.1
 ```
