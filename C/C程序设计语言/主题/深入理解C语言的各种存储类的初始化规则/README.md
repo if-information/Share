@@ -1,5 +1,7 @@
 ## 深入理解C语言的各种存储类的初始化规则
 
+> 关键字: C语言 存储 初始化
+
 > C程序设计语言 (第2版 新版) _[美]Brian W.Kernighan & Dennis M.Ritchie_  <br>
 > _Page 72_
 
